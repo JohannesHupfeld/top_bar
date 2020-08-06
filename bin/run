@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/environment.rb'
+
+TopBar::CLI.new.start
