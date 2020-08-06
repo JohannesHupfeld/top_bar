@@ -1,0 +1,2 @@
+class TopBar::Scraper
+end
