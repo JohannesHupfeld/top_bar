@@ -1,0 +1,2 @@
+class TopBar::Bar
+end
