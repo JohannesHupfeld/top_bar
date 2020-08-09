@@ -5,7 +5,7 @@ class TopBar::Scraper
         
         array_of_bars = index_page.css("a.item")
 
-        array_of_bars[0...50].each.with_index do |bar_tab, index|
+        array_of_bars[0...50].each.with_index do |bar_tab|
         attributes = {
             name: bar_tab.css("h2.contenttext_link_1561481").text,
             rank: bar_tab.css("p.contenttext_link_1561479").text,
