@@ -1,7 +1,6 @@
 require 'pry'
 require 'open-uri'
 require 'nokogiri'
-require 'colorize'
 
 require_relative "top_bar/version"
 require_relative "top_bar/bar"
